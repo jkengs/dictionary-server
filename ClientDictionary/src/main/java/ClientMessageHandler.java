@@ -114,5 +114,4 @@ public class ClientMessageHandler {
     public void setHostAddress(String hostAddress) {this.hostAddress = hostAddress;}
 
     public void setPortNo(int portNo) {this.portNo = portNo;}
-
 }
