@@ -42,7 +42,6 @@ public class ClientMessageHandler {
             connect();
             interact(actionCode,inputText);
         } catch (InvalidSocketException e) {
-//            this.hostAddress = DEFAULT_HOST_ADDRESS;
             throw new InvalidSocketException(e.getMessage());
         } catch (IOException e) {
             System.out.println(ERROR_STREAM);
